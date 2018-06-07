@@ -1,0 +1,40 @@
+---
+:source:
+  :path: test
+  :file: test_Triangle.c
+:successes:
+- :test: test_getTriangleName_given_2_2_minus5_Expect_is_not_a_triangle
+  :line: 20
+  :message: ''
+- :test: test_getTriangleName_given_1_0_3_Expect_is_not_an_triangle
+  :line: 26
+  :message: ''
+- :test: test_getTriangleName_given_16_16_16_Expect_is_an_equilateral
+  :line: 32
+  :message: ''
+- :test: test_getTriangleName_given_minus1_minus1_minus1_Expect_is_an_equilateral
+  :line: 37
+  :message: ''
+- :test: test_getTriangleName_given_1_6_17_Expect_is_an_scalene
+  :line: 43
+  :message: ''
+- :test: test_getTriangleName_given_15_60_100_Expect_is_an_scalene
+  :line: 49
+  :message: ''
+- :test: test_add_2_with_5_expect_7
+  :line: 54
+  :message: ''
+- :test: test_add_9_with_minus20_expect_minus11
+  :line: 63
+  :message: ''
+:failures: []
+:ignores:
+- :test: test_Triangle_NeedToImplement
+  :line: 73
+  :message: Need to Implement Triangle
+:counts:
+  :total: 9
+  :passed: 8
+  :failed: 0
+  :ignored: 1
+:stdout: []
